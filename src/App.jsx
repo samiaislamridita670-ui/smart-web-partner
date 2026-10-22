@@ -35,26 +35,53 @@ const navigation = [
   { name: "Contact", href: "#contact" },
 ];
 
+const services = [
+  {
+    icon: Palette,
+    title: "Website Design",
+    description:
+      "Modern, beautiful and responsive website designs that make your brand stand out.",
+  },
+  {
+    icon: Code2,
+    title: "Web Development",
+    description:
+      "Fast, functional and user-friendly websites built with modern technologies.",
+  },
+  {
+    icon: MonitorSmartphone,
+    title: "Responsive Design",
+    description:
+      "Websites that look amazing on mobile, tablet and desktop devices.",
+  },
+  {
+    icon: Globe,
+    title: "Business Websites",
+    description:
+      "Professional websites for small businesses, shops and service providers.",
+  },
+];
+
 const projects = [
   {
-    title: "EduSpark",
-    category: "Online Learning Platform",
-    description:
-      "An upcoming educational platform designed to make online learning simple, engaging and accessible.",
-    tags: ["Education", "React", "Coming Soon"],
-    icon: Laptop,
-    gradient: "from-blue-500/30 via-purple-500/10 to-cyan-500/20",
-    live: null,
-  },
+  title: "EduSpark",
+  category: "Online Learning Platform",
+  description:
+    "An upcoming educational platform designed to make online learning simple, engaging and accessible.",
+  tags: ["Education", "React", "Coming Soon"],
+  icon: Laptop,
+  gradient: "from-blue-500/30 via-purple-500/10 to-cyan-500/20",
+  live: null,
+},
   {
     title: "Bazar Dor",
     category: "Market Price Platform",
     description:
-      "A web platform for exploring everyday market prices and essential products.",
-    tags: ["Web App", "Market Prices"],
+      "A web platform focused on making everyday market price information easier to explore.",
+    tags: ["Web App", "UI Design"],
     icon: Globe,
     gradient: "from-emerald-500/30 via-teal-500/10 to-green-500/20",
-    live: "https://bazar-dorridita.netlify.app",
+    live: null,
   },
   {
     title: "FitLog",
@@ -64,7 +91,7 @@ const projects = [
     tags: ["React", "Fitness", "Web App"],
     icon: Zap,
     gradient: "from-orange-500/30 via-rose-500/10 to-red-500/20",
-    live: "https://fitlog-samia.netlify.app",
+    live: null,
   },
   {
     title: "RokthoBindu",
@@ -87,14 +114,62 @@ const projects = [
     live: null,
   },
   {
-    title: "DevStack",
-    category: "Developer Tools Platform",
+    title: "Samia Portfolio",
+    category: "Personal Portfolio",
     description:
-      "A developer-focused web project with a modern and user-friendly interface.",
-    tags: ["Development", "Web App"],
+      "A personal portfolio showcasing web development skills and creative projects.",
+    tags: ["Portfolio", "Frontend"],
     icon: Code2,
     gradient: "from-sky-500/30 via-blue-500/10 to-purple-500/20",
-    live: "https://dev-stack-builder-final.netlify.app",
+    live: null,
+  },
+];
+
+const pricing = [
+  {
+    name: "Basic Landing Page",
+    price: "299",
+    description: "A simple and attractive one-page online presence.",
+    features: [
+      "Modern landing page",
+      "Mobile responsive design",
+      "Contact information",
+      "Basic customization",
+    ],
+  },
+  {
+    name: "Personal Portfolio",
+    price: "399",
+    description: "Showcase your work, skills and achievements.",
+    features: [
+      "Professional portfolio layout",
+      "About and skills sections",
+      "Project showcase",
+      "Contact section",
+    ],
+  },
+  {
+    name: "Coaching Website",
+    price: "499",
+    description: "A dedicated website for teachers and coaching centers.",
+    features: [
+      "Course information",
+      "Teacher introduction",
+      "Student-friendly design",
+      "Contact and enrollment details",
+    ],
+    popular: true,
+  },
+  {
+    name: "Business Website",
+    price: "599",
+    description: "Build a professional digital presence for your business.",
+    features: [
+      "Business homepage",
+      "Services showcase",
+      "Responsive design",
+      "Contact and social links",
+    ],
   },
 ];
 
