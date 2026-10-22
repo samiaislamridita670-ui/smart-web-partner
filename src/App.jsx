@@ -71,7 +71,7 @@ const projects = [
   tags: ["Education", "React", "Coming Soon"],
   icon: Laptop,
   gradient: "from-blue-500/30 via-purple-500/10 to-cyan-500/20",
-  live: null,
+  live: https://eduspark-samia.netlify.app,
 },
   {
     title: "Bazar Dor",
