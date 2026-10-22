@@ -62,17 +62,19 @@ const services = [
   },
 ];
 
-const projects = [
+
+ const projects = [
   {
-  title: "EduSpark",
-  category: "Online Learning Platform",
-  description:
-    "A responsive online learning platform featuring course search, category filtering, and interactive course cards.",
-  tags: ["Education", "React", "JavaScript"],
-  live: "https://eduspark-samia.netlify.app/",
-  github: "https://github.com/samiaislamridita670-ui/eduspark",
-}
-  
+    title: "EduSpark",
+    category: "Online Learning Platform",
+    description:
+      "A responsive online learning platform featuring course search, category filtering, and interactive course cards.",
+    tags: ["Education", "React", "JavaScript"],
+    icon: Code2,
+    gradient: "from-blue-500/30 via-indigo-500/10 to-purple-500/20",
+    live: "https://eduspark-samia.netlify.app/",
+    github: "https://github.com/samiaislamridita670-ui/eduspark",
+  },
   {
     title: "Bazar Dor",
     category: "Market Price Platform",
