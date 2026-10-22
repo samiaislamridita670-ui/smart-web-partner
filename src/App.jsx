@@ -91,7 +91,7 @@ live: "https://bazar-dorridita.netlify.app",
     tags: ["React", "Fitness", "Web App"],
     icon: Zap,
     gradient: "from-orange-500/30 via-rose-500/10 to-red-500/20",
-    live:live: "https://fitlog-samia.netlify.app", 
+    live:"https://fitlog-samia.netlify.app", 
   },
   {
     title: "RokthoBindu",
@@ -121,7 +121,7 @@ live: "https://bazar-dorridita.netlify.app",
     tags: ["Portfolio", "Frontend"],
     icon: Code2,
     gradient: "from-sky-500/30 via-blue-500/10 to-purple-500/20",
-    live: https://parsonalprotfoolio.netlify.app,
+live: "https://parsonalprotfoolio.netlify.app",
   },
 ];
 
