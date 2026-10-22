@@ -81,7 +81,7 @@ const projects = [
     tags: ["Web App", "UI Design"],
     icon: Globe,
     gradient: "from-emerald-500/30 via-teal-500/10 to-green-500/20",
-    live: live: "https://bazar-dorridita.netlify.app",,
+live: "https://bazar-dorridita.netlify.app",
   },
   {
     title: "FitLog",
@@ -91,7 +91,7 @@ const projects = [
     tags: ["React", "Fitness", "Web App"],
     icon: Zap,
     gradient: "from-orange-500/30 via-rose-500/10 to-red-500/20",
-    live:live: "https://fitlog-samia.netlify.app", ,
+    live:live: "https://fitlog-samia.netlify.app", 
   },
   {
     title: "RokthoBindu",
