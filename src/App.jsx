@@ -67,12 +67,12 @@ const projects = [
   title: "EduSpark",
   category: "Online Learning Platform",
   description:
-    "An upcoming educational platform designed to make online learning simple, engaging and accessible.",
-  tags: ["Education", "React", "Coming Soon"],
-  icon: Laptop,
-  gradient: "from-blue-500/30 via-purple-500/10 to-cyan-500/20",
-  live: https://eduspark-samia.netlify.app,
-},
+    "A responsive online learning platform featuring course search, category filtering, and interactive course cards.",
+  tags: ["Education", "React", "JavaScript"],
+  live: "https://eduspark-samia.netlify.app/",
+  github: "https://github.com/samiaislamridita670-ui/eduspark",
+}
+  
   {
     title: "Bazar Dor",
     category: "Market Price Platform",
